@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font: 16px "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC",
+        "WenQuanYi Micro Hei", sans-serif; */
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+/* 通过symbol引用阿里图标库 */
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    color: gray;
+
+}
+
+.w {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15vh;
+    background: #fff;
+    /* border-bottom: 1.2px solid rgb(189, 188, 188); */
+    position: relative;
+    z-index: 3;
+}
+
+/* 解决移动端背景遮不住底部信息 */
+.ww {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    z-index: 3;
+    border-bottom: 1.2px solid rgb(189, 188, 188);
+
+}
+
+html {
+    /* overflow: auto; */
+    /* overflow: overlay; */
+    /* margin-right: calc(100% - 100vw); */
+    overflow-x: hidden;
+}
+
+:root {
+
+    --el-input-focus-border: gray;
+    --el-input-focus-border-color: gray !important;
+    --el-pagination-hover-color: black !important;
+    /* --el-color-primary: #ffbd39 !important; */
+}

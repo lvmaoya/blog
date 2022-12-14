@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+
+}
+
+ul li {
+    list-style: none;
+}
+
+
+.cont {
+    padding: 20px
+}
+
+.w {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15vh;
+    background: #fff;
+    border-bottom: 1.2px solid rgb(189, 188, 188);
+    position: relative;
+    z-index: 3;
+}
+
+:root {
+    --light_yellow: rgb(249, 248, 243);
+    --light_purple: rgb(240, 244, 255);
+    --light_green: rgb(238, 252, 239);
+    --light_blue: rgb(230, 245, 250);
+}
+
+.bg {
+    background-color: #faf8f8;
+    border-radius: 5px;
+}
+
+html {
+    overflow: auto;
+    overflow-y: overlay;
+    /* margin-right: calc(100% - 100vw); */
+}
+
+/* element plus */
+:root {
+    --el-menu-hover-bg-color: var(--light_blue);
+    --el-menu-active-color: rgb(84, 112, 198);
+    --el-button-text-color: rgb(84, 112, 198);
+    --el-color-primary: rgb(84, 112, 198);
+
+}
+
+.el-table {
+    border: 1px solid gainsboro;
+    border-bottom: none;
+}
